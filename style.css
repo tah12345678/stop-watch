@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+
+    text-align: center;
+    line-height: 60px;
+
+    padding: 0px;
+    margin: 0px;
+}
+.time{
+    font-family: monospace;
+    font-weight: 300px;
+    font-size: 50px;
+}
+.button{
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+}
+#play button{
+    display: block;
+}
+#pause button{
+    display: none;
+}
+button {
+    cursor: pointer;
+   background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+  }
